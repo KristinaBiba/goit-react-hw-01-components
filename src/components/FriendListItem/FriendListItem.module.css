@@ -1,0 +1,19 @@
+.item {
+}
+.status {
+}
+.avatar {
+      display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+.name {
+      margin-right: auto;
+  margin-left: auto;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

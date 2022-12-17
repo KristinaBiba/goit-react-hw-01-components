@@ -1,7 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
 
 p,
-ul {
+ul,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
