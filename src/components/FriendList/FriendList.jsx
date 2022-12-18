@@ -1,4 +1,4 @@
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import {FriendListItem} from '../FriendListItem/FriendListItem'
 import css from '../FriendList/FriendList.module.css'
 
@@ -13,11 +13,11 @@ return (    <ul className={css.friendList}>
     </ul>)
 } 
 
-// FriendList.PropTypes = {
-//     friends: PropTypes.shape({
-//         avatar: PropTypes.string,
-//         name: PropTypes.string,
-//         isOnline: PropTypes.bool,
-//         key: PropTypes.number,
-//     })
-// }
+FriendList.propTypes = {
+    friends: PropTypes.arrayOf(PropTypes.shape({
+        avatar: PropTypes.string,
+        name: PropTypes.string,
+        isOnline: PropTypes.bool,
+        key: PropTypes.number,
+    }))
+}

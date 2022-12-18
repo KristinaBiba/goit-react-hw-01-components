@@ -26,7 +26,7 @@ export const Wrapper = () => {
 
       <FriendList friends={friends} />
 
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
 
     </div>)
 }
