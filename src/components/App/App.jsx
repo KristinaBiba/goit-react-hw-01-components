@@ -8,11 +8,11 @@ import data from '../../path/data.json'
 import friends from "../../path/friends.json";
 import transactions from "../../path/transactions.json";
 
-import css from '../Wrapper/Wrapper.module.css'
+import css from '../App/App.module.css'
 
-export const Wrapper = () => {
+export const App = () => {
   return (
-    <div className={css.wrapper}>
+    <div className={css.app}>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -30,4 +30,3 @@ export const Wrapper = () => {
 
     </div>)
 }
-
